@@ -1,0 +1,31 @@
+<snippet>
+  <content><![CDATA[
+<?php
+
+namespace ${1:App};
+
+use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Output\OutputInterface;
+
+class ${2:NewCommand} extends Command
+{
+  public function configure()
+  {
+    $this->setName('${3:command-name}')
+         ->setDescription('${4:Description}');
+  }
+
+  public function execute(InputInterface $input, OutputInterface $output)
+  {
+    ${5}
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>sctmplt</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

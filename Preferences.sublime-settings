@@ -1,0 +1,24 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/SublimeLinter/Agila Dracula (SL).tmTheme",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		""
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_numbers": false,
+	"line_padding_bottom": 6,
+	"line_padding_top": 6,
+	"margin": 0,
+	"tab_size": 2,
+	"theme": "Agila.sublime-theme",
+	"theme_agila_horizontal_scrollbar_invisible": true,
+	"theme_agila_vertical_scrollbar_invisible": true,
+	"translate_tabs_to_spaces": true,
+	"use_simple_full_screen": true
+}

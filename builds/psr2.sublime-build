@@ -1,0 +1,3 @@
+{
+  "shell_cmd": "php php-cs-fixer.phar fix $file"
+}
